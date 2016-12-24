@@ -1,0 +1,140 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>New York Times Ajax App</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1><img src ="newspaper.png">New York Times Search</h1>
+            </div>
+
+
+            <div class="panel panel-default">
+                <form>
+                    <div class="panel-heading"><img src="newspaper.png"> Search</div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="searchTerm">Keyword</label>
+                            <input type="text" class="form-control" id="inputSearch1" placeholder="Enter Search Term Here..">
+                        </div>
+                        <div class="form-group">
+                            <label for="numberOfRecords">Number of Records to retrieve</label>
+                            <select class="form-control" id="numberOfTerms1">
+                                <option value=1>1</option>
+                                <option value=5 selected>5</option>
+                                <option value=10>10</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="yearStart">Start Year (Optional)</label>
+                            <input type="startYearResults" class="form-control" id="startYear1" placeholder="Enter the begginning year of your desired results.">
+                        </div>
+                        <div class="form-group">
+                            <label for="yearEnd">End Year (Optional)</label>
+                            <input type="endYearResults" class="form-control" id="endYear1" placeholder="Enter the end year of your desired results.">
+                        </div>
+                        <button id="searchButton" type="button" class="btn btn-default"><img src="magnifying-glass.png">Search</button>
+                        <button type="button" class="btn btn-default"><img src="clear-button.png">Clear Search</button>
+                </form>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading"><img src="eyeglasses.png"> Results</div>
+                <div class="panel-body">
+                    <div class="well">
+                    	<h2>Title</h2>
+                    	<h3>Author</h3>
+                    	<h4>Section</h4>
+                    	<h4>Date</h4>
+                    	<h4>Link</h4>	
+                    </div>	
+                    <div class="well">
+                    	<h2>Title</h2>
+                    	<h3>Author</h3>
+                    	<h4>Section</h4>
+                    	<h4>Date</h4>
+                    	<h4>Link</h4>	
+                    </div>	
+                    <div class="well">
+                    	<h2>Title</h2>
+                    	<h3>Author</h3>
+                    	<h4>Section</h4>
+                    	<h4>Date</h4>
+                    	<h4>Link</h4>	
+                    </div>	
+                    <div class="well">
+                    	<h2>Title</h2>
+                    	<h3>Author</h3>
+                    	<h4>Section</h4>
+                    	<h4>Date</h4>
+                    	<h4>Link</h4>	
+                    </div>	
+                    <div class="well">
+                    	<h2>Title</h2>
+                    	<h3>Author</h3>
+                    	<h4>Section</h4>
+                    	<h4>Date</h4>
+                    	<h4>Link</h4>	
+                    </div>	
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>	
+
+<script src="querying.js"></script>
+
+
+</body>
+
+
+</html>
